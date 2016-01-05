@@ -1,5 +1,3 @@
-package pl.agh.edu.lab4;
-
 import pl.agh.edu.PersonList;
 
 public class Listing implements Command{

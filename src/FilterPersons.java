@@ -1,9 +1,3 @@
-package pl.agh.edu.lab4;
-
-import pl.agh.edu.Filter;
-import pl.agh.edu.Person;
-import pl.agh.edu.PersonList;
-
 public class FilterPersons implements Command{
 
 	private Filter<Person> filter;

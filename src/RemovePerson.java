@@ -1,8 +1,3 @@
-package pl.agh.edu.lab4;
-
-import pl.agh.edu.Person;
-import pl.agh.edu.PersonList;
-
 public class RemovePerson implements Command{
 
 	private PersonList list;

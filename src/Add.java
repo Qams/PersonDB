@@ -1,7 +1,4 @@
-package pl.agh.edu.lab4;
 import java.util.ArrayList;
-
-import pl.agh.edu.*;
 
 public class Add implements Command{
 

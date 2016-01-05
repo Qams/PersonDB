@@ -1,5 +1,3 @@
-package pl.agh.edu.lab4;
-
 import java.util.ArrayList;
 
 public class MacroCommand implements Command{
