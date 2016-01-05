@@ -146,22 +146,5 @@ public class PersonList implements Iterable<Person>{
 		return zb.iterator();
 	}
 	
-	public static void main(String[] args) {
-		
-		Person p1 = new Person("Robert Nowak", "786821219", "94031838923");
-		Person p2 = new Person("Adam Kowalski", "886834262", "91051112327");
-		Person p3 = new Person("Jan Malinowski", "789986271", "94081568973");
-		PersonList list = new PersonList();
-		list.addPerson(p1);
-		list.addPerson(p2);
-		list.addPerson(p3);
-		list.showList();
-		System.out.println(p3.getFullName().getName());
-		for(Person p : list.filter(list.new AndFilters(list.new BirthYearFilter(1994),list.new SurnameFilter("Nowak"))))
-		{
-			System.out.println(p);
-		}
-		
-	}
 
 }
