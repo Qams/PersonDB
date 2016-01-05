@@ -1,5 +1,3 @@
-package pl.agh.edu;
-
 public class FullName {
 
 	private String[] name;

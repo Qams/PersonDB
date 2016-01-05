@@ -1,5 +1,3 @@
-package pl.agh.edu;
-
 import java.io.Serializable;
 
 public class Person implements Serializable{
