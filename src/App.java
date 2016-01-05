@@ -94,21 +94,9 @@ public class App {
 	}
 	
 	public static void main(String[] args) {
-		
-		/*Person p1 = new Person("Robert Nowak", "786821219", "94031838923");
-		Person p2 = new Person("Adam Kowalski", "886834262", "91051112327");
-		Person p3 = new Person("Jan Malinowski", "789986271", "94081568973");
-		PersonList list = new PersonList();
-		MacroCommand macro = new MacroCommand();
-		list.addPerson(p1);
-		Add add = new Add(list, p2); Add add2 = new Add(list, p3); 
-		Listing l = new Listing(list);
-		macro.addCommand(add); macro.addCommand(add2);macro.addCommand(l);
-		macro.execute();*/
+
 		App app = new App();
 		app.start();
-		
-		
 		
 	}
 }
